@@ -9,7 +9,6 @@ import Masked from "../../assets/images/masked-man.png";
 import "./report.scss";
 
 const Report = (props) => {
-  console.log(props.coronaData);
   const {
     death,
     discharged,
