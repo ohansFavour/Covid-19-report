@@ -1,0 +1,21 @@
+.cases__container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  .cases__image {
+    img {
+      width: 80px;
+      height: auto;
+    }
+  }
+  .cases__details {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+}
+
+.count{
+    font-weight: bold;
+    margin-bottom: 6px;
+}
